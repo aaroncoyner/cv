@@ -1,5 +1,5 @@
 ---
-title: "Ted Laderas's CV"
+title: "Aaron Coyner's CV"
 author: Ted Laderas
 date: "`r Sys.Date()`"
 params:
@@ -22,7 +22,7 @@ source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1co40b1-0elS86Ttk77Kf8cEBGGjjiSaNLohtgZ5eRH4/edit?usp=sharing",  
+  data_location = "https://docs.google.com/spreadsheets/d/1RAbfDiqCQKw3cmEaFZlj2AkBZRG5YjRMHl9-U2ZZZoI/edit?usp=sharing",  
   pdf_mode = params$pdf_mode
 )
 
@@ -88,7 +88,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Ted Laderas, PhD {#title}
+Aaron Coyner, PhD(c) {#title}
 --------------------------------------------------------------------------------
 
 **Assistant Professor**, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology
