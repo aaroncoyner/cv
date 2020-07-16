@@ -54,9 +54,9 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _laderast.github.io/cv_")
+  cat("View this CV online with links at _aaroncoyner.github.io/cv_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://laderast.github.io/cv/cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://aaroncoyner.github.io/cv/cv.pdf)")
 }
 ```
 
@@ -91,87 +91,40 @@ Main
 Aaron Coyner, PhD(c) {#title}
 --------------------------------------------------------------------------------
 
-**Assistant Professor**, Division of Bioinformatics and Computational Biology, Department of Medical Informatics and Clinical Epidemiology
+**PhD Candidate**, Division of Bioinformatics and Computational Biomedicine, Department of Medical Informatics and Clinical Epidemiology
 
-**Researcher**, OHSU Knight Cancer Institute
+**Researcher**, Casey Eye Institute
 
 Oregon Health & Science University
 
-My research focus is on the Systems Biology of Complex Diseases. I use integrative modeling approaches across OMICs types to achieve this.
-
-I am also passionate about teaching students to think about data, and have taught Data Science to a variety of groups, including graduate students, post-docs, staff, and clinicians. I am also an RStudio Certified Trainer in both the `tidyverse` and `Shiny`.
+My research is centered around the detection and prediction of retinopathy of prematurity using a deep learning approach.
 
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
-
 
 ```{r}
 CV %<>% print_section('education')
 ```
 
 
-Teaching {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-### Teaching Statement
-
-N/A
-
-N/A
-
-N/A
-
-Effective communication, hands-on learning, and mentoring are core to my teaching philosophy. I am a strong believer in enabling students in self-directed learning through hands-on workshops including both practical skills in bioinformatics (software development, design, and data analysis and visualization) and social skills essential to collaboration (interpretation and communication). In terms of practical skills, I have developed and contributed to a number of courses (Analytics, RBootcamp, Network Analysis, and BD2K skills courses) and workshops in a large variety of software development and communication topics. These topics include software design, interactive visualization, exploratory data analysis, and presentation of results. 
-
-In terms of fostering social and collaborative skills in students, I am a founder and co-leader of BioData-Club, a collaborative forum for students and postdocs to share and teach each other practical skills for success in a research environment. Through BioData Club, I have informally mentored a number of students through feedback and collaboration on workshops and presentations. I believe that by “training the trainers”, we can more effectively educate students in these skills in Data Science and Analytics. 
-
-In order to accomplish this training of trainers, my course materials are openly available for use and modification by other teachers. Because of my dedication to teaching and incorporation of student feedback, I have consistently high ratings from students in terms of teaching both long-form courses and short-term workshops.
-
-
-Courses {data-icon=chalkboard-teacher}
+Code Repositories {data-icon=github}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section("course")
+CV %<>% print_section('repo')
 ```
 
 
-Educational Resources {data-icon=chalkboard-teacher}
+Patents {data-icon=file-text}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %<>% print_section("educational_resource")
+CV %<>% print_section('patent')
 ```
 
 
-Software {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section("software")
-```
-
-
-Research {data-icon=flask}
---------------------------------------------------------------------------------
-
-### Research Statement
-
-N/A
-
-N/A
-
-N/A
-
-My research interests are complex diseases, precision medicine, applications of systems science (including network analysis and modeling), and applying data integration to difficult and high-impact translational research questions. These questions include immune system profiling in both infectious disease (tuberculosis) and Acute Myeloid Leukemia, understanding drug sensitivity in the context of multiple cancer types (AML, Colorectal, Breast and Head and Neck Cancer), and quantifying expression differences in alcoholic preference. I have worked with a large number of datatypes (high-throughput immunophenotyping, proteomics, expression, genomic, and functional drug screen data) and have focused on methods and frameworks integrating these datatypes within the biological and clinical context of these translational research questions. 
-
-My training in biomedical informatics as a master’s student in Biomedical Informatics, as an NLM Predoctoral Fellow, and as a NLM Postdoctoral fellow has enabled me to communicate with a wide variety of collaborators by giving me a strong background in Cancer Biology, Software Development, and Clinical Systems. 
-
-Additionally, I am a strong advocate for Open Science initiatives, most notably the effort for reproducibility in scientific analysis. To this end, I have developed multiple novel software pipelines that transparently process data from raw data to through the final stages of analysis.
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
+Peer-Reviewed Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -179,77 +132,40 @@ CV %<>% print_section('academic_articles')
 ```
 
 
-Selected Data Science Writing {data-icon=chart-line}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('data_science_writing_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('data_science_writings')
-```
-
-
-Service {data-icon=info-circle}
---------------------------------------------------------------------------------
-
-### Service Statement
-
-N/A
-
-N/A
-
-N/A
-
-I am a strong supporter of service at OHSU and beyond. I currently participate in the DMICE BCB (Bioinformatics and Computational Biology) Faculty Division meeting, the DMICE Mentoring committee, and have participated in the BCB Curriculum Retreat in order to plan upcoming coursework at DMICE. As a Pacific Islander, I have a unique viewpoint about diversity and have dedicated myself to making classes and workshops psychologically safe. 
-
-Beyond OHSU, I believe that we need to increase public engagement of science and increase outreach and mentoring of next-generation science students, especially from disadvantaged populations will enable these students to succeed in STEM-based careers. 
-
-As a former student of Saturday Academy’s scientific mentoring program, I want to contribute back to this community and engage potential STEM students through student outreach and mentoring. I am also involved in outreach through the development of course material for the Biocatalyst training program through Oregon Bioscience Association, which provides bioscience training for unemployed or under-employed professionals.
-
-Service History and Accomplishments
-----------------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('service')
-```
-
-
-
-
-Selected Press (About)  {data-icon=newspaper}
+Conference Presentations {data-icon=users}
 --------------------------------------------------------------------------------
 
 ```{r}
-#CV %<>% print_section('about_me_press')
+CV %<>% print_section('conference')
 ```
 
 
-<br>
-<br>
-
-
-Selected Press (By)  {data-icon=newspaper}
---------------------------------------------------------------------------------
-
-```{r}
-#CV %<>% print_section('by_me_press')
-```
-
-
-
-
-Positions and Work Experience {data-icon=laptop}
+Teaching and Work Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('positions')
 ```
 
+
+Relevant Coursework {data-icon=book-open}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section("course")
+```
+
+
+Volunteer Experience {data-icon=bookmark}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section("volunteer")
+```
+
+
+
+
 ```{r}
 CV %<>% print_links()
 ```
-
