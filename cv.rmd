@@ -108,14 +108,6 @@ CV %<>% print_section('education')
 ```
 
 
-Code Repositories {data-icon=github}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('repo')
-```
-
-
 Patents {data-icon=file-text}
 --------------------------------------------------------------------------------
 
@@ -137,6 +129,14 @@ Conference Presentations {data-icon=users}
 
 ```{r}
 CV %<>% print_section('conference')
+```
+
+
+Code Repositories {data-icon=github}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('repo')
 ```
 
 
