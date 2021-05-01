@@ -88,16 +88,12 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Aaron Coyner, PhD(c) {#title}
+Aaron Coyner, PhD {#title}
 --------------------------------------------------------------------------------
 
-**PhD Candidate**, Division of Bioinformatics and Computational Biomedicine, Department of Medical Informatics and Clinical Epidemiology
+**Computational Biologist**
 
-**Researcher**, Casey Eye Institute
-
-Oregon Health & Science University
-
-My research is centered around the detection and prediction of retinopathy of prematurity using a deep learning approach.
+I create both simple and complex models to solve healthcare-related problems in a powerful, yet interpretable, way.
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -105,6 +101,14 @@ Education {data-icon=graduation-cap data-concise=true}
 
 ```{r}
 CV %<>% print_section('education')
+```
+
+
+Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('positions')
 ```
 
 
@@ -137,14 +141,6 @@ Code Repositories {data-icon=github}
 
 ```{r}
 CV %<>% print_section('repo')
-```
-
-
-Teaching and Work Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('positions')
 ```
 
 
